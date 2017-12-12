@@ -1,0 +1,124 @@
+body {
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Spectral SC', serif;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-family: 'Spectral SC', serif;
+}
+
+h3 {
+  font-family: 'Dosis', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 5%;
+  font-size: 16px;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.trident{
+  height: 50px;
+}
+
+.mainimage {
+  padding: 5% 0;
+  background-color: white;
+  z-index: 2;
+  position: relative;
+}
+
+.logo {
+  width: 100%;
+  height: inherit;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  background-color: #A0D6B4;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.infographic {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info {
+  width: 100%;
+  height: inherit;
+}
+
+.concentrate {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dualbox {
+  display: flex;
+  flex-direction: row;
+  background-color: #5F9EA0;
+  padding-bottom: 2em;
+}
+
+.brew {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.eco {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer{
+  background: transparent;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  bottom: 0;
+  position: fixed;
+  z-index: 999;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.link{
+  background-color: #E8D9C5;
+  padding: 5px;
+  border: black 2px solid;
+  border-radius: 10%;
+  font-size: 1em
+}
