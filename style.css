@@ -49,6 +49,7 @@ header {
 .logo {
   width: 100%;
   height: inherit;
+  margin: 15% auto;
 }
 
 .container {
