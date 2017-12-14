@@ -71,6 +71,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .info {
@@ -82,12 +84,14 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #5F9EA0;
+  color: white;
 }
 
 .dualbox {
   display: flex;
   flex-direction: row;
-  background-color: #5F9EA0;
+  background-color: #A0D6B4;
   padding-bottom: 2em;
   color: white;
 }
