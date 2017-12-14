@@ -125,7 +125,7 @@ footer{
   justify-content: space-around;
   bottom: 0;
   position: fixed;
-  z-index: 999;
+  /*z-index: 999;*/
 }
 
 footer a{
