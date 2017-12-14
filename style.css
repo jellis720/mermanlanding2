@@ -43,7 +43,6 @@ header {
 }
 
 .mainimage {
-  padding: 5% 0;
   background-color: white;
   z-index: 2;
   position: relative;
@@ -52,7 +51,7 @@ header {
 .logo {
   width: 100%;
   height: inherit;
-  margin: 15% auto;
+  margin: 0
 }
 
 .container {
