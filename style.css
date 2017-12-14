@@ -5,10 +5,13 @@ body {
 h1 {
   font-family: 'Spectral SC', serif;
   text-transform: capitalize;
+  color: white;
+  display: inline;
 }
 
 h2 {
   font-family: 'Spectral SC', serif;
+  display: inline;
 }
 
 h3 {
@@ -17,7 +20,9 @@ h3 {
 
 p {
   font-family: 'Open Sans Condensed', sans-serif;
-  margin: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
   font-size: 16px;
 }
 
@@ -58,6 +63,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: white;
 }
 
 .infographic {
@@ -83,6 +89,7 @@ header {
   flex-direction: row;
   background-color: #5F9EA0;
   padding-bottom: 2em;
+  color: white;
 }
 
 .brew {
@@ -112,12 +119,15 @@ footer a{
   color: black;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
+  padding: auto 100px;
 }
 
 .link{
   background-color: #E8D9C5;
-  padding: 5px;
+  padding-right: 40px;
+  padding-left: 40px;
   border: black 2px solid;
-  border-radius: 10%;
-  font-size: 2em
+  border-radius: 5px;
+  font-size: 2em;
+  margin-bottom: -5px;
 }
