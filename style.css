@@ -1,3 +1,14 @@
+/*fonts =
+font-family: 'Spectral SC', serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;*/
+
+/*colors =
+A0D6B4
+5F9EA0
+E8D9C5
+*/
+
 body {
   margin: 0 auto;
 }
@@ -119,34 +130,6 @@ header {
   justify-content: center;
 }
 
-footer{
-  background: transparent;
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  bottom: 0;
-  position: fixed;
-  /*z-index: 999;*/
-}
-
-footer a{
-  text-decoration: none;
-  color: gray;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: bold;
-  padding: auto 100px;
-}
-
-.link{
-  background-color: #E8D9C5;
-  padding-right: 40px;
-  padding-left: 40px;
-  border: gray 2px solid;
-  border-radius: 5px;
-  font-size: 4em;
-  margin-bottom: -5px;
-}
-
 .contactsection{
   width: 100%;
   display: flex;
@@ -167,8 +150,85 @@ footer a{
   justify-content: space-around;
   background-color: #5F9EA0;
   color: white;
+  margin-top: 3em;
 }
 
 .sociallink{
   height: 5em;
 }
+
+footer{
+  background: transparent;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  bottom: 0;
+  position: fixed;
+  /*z-index: 999;*/
+}
+
+.footerlink{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  padding: auto 100px;
+}
+
+.link{
+  background-color: #E8D9C5;
+  padding-right: 40px;
+  padding-left: 40px;
+  border: gray 2px solid;
+  border-radius: 10px;
+  font-size: 4em;
+  margin-bottom: -5px;
+}
+
+/*-----------------login page--------------------*/
+
+.login{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.loginform{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 13%;
+  background-color: #A0D6B4;
+  height: 15em;
+  font-size: 2em;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.logininput{
+  /*height: 3em;*/
+  width:60%;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 1.5em;
+  font-family: 'Dosis', sans-serif;
+}
+
+.submitbutton{
+  padding: 5px;
+  border: 1px solid black;
+  background-color: #E8D9C5;
+  border-radius: 5px;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/*--------------------signup form--------------------*/
