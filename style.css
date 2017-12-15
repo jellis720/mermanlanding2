@@ -69,7 +69,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   color: white;
-  text-shadow: 2px 2px 2px gray;
+  text-shadow: 2px 2px 2px black;
 
 }
 
@@ -104,7 +104,7 @@ header {
   background-color: #A0D6B4;
   padding-bottom: 2em;
   color: white;
-  text-shadow: 2px 2px 2px gray;
+  text-shadow: 2px 2px 2px black;
 }
 
 .brew {
