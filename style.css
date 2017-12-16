@@ -3,6 +3,7 @@ font-family: 'Spectral SC', serif;
 font-family: 'Dosis', sans-serif;
 font-family: 'Open Sans Condensed', sans-serif;*/
 
+
 /*colors =
 A0D6B4
 5F9EA0
@@ -50,7 +51,7 @@ header {
   justify-content: center;
 }
 
-.trident{
+.trident {
   height: 75px;
   margin: 20px
 }
@@ -81,7 +82,6 @@ header {
   justify-content: center;
   color: white;
   text-shadow: 2px 2px 2px black;
-
 }
 
 .infographic {
@@ -106,7 +106,6 @@ header {
   background-color: #5F9EA0;
   color: white;
   text-shadow: 2px 2px 2px gray;
-
 }
 
 .dualbox {
@@ -130,7 +129,7 @@ header {
   justify-content: center;
 }
 
-.contactsection{
+.contactsection {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -140,10 +139,9 @@ header {
   padding-top: 15%;
   padding-bottom: 15%;
   text-shadow: 2px 2px 2px gray;
-
 }
 
-.contactlinks{
+.contactlinks {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -153,11 +151,11 @@ header {
   margin-top: 3em;
 }
 
-.sociallink{
+.sociallink {
   height: 5em;
 }
 
-footer{
+footer {
   background: transparent;
   display: flex;
   width: 100%;
@@ -167,7 +165,7 @@ footer{
   /*z-index: 999;*/
 }
 
-.footerlink{
+.footerlink {
   text-decoration: none;
   color: white;
   text-shadow: 1px 1px 1px black;
@@ -176,7 +174,7 @@ footer{
   padding: auto 100px;
 }
 
-.link{
+.link {
   background-color: #E8D9C5;
   padding-right: 40px;
   padding-left: 40px;
@@ -186,15 +184,16 @@ footer{
   margin-bottom: -5px;
 }
 
+
 /*-----------------login page--------------------*/
 
-.login{
+.login {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.loginform{
+.loginform {
   display: flex;
   flex-wrap: wrap;
   margin: 13%;
@@ -208,16 +207,16 @@ footer{
   text-shadow: 1px 1px 1px black;
 }
 
-.logininput{
+.logininput {
   /*height: 3em;*/
-  width:60%;
+  width: 60%;
   margin-left: 1em;
   margin-right: 1em;
   font-size: 1.5em;
   font-family: 'Dosis', sans-serif;
 }
 
-.submitbutton{
+.submitbutton {
   padding: 5px;
   border: 1px solid black;
   background-color: #E8D9C5;
@@ -231,4 +230,19 @@ footer{
   margin-right: 1em;
 }
 
+
 /*--------------------signup form--------------------*/
+
+.comingsoon {
+  background-color: #A0D6B4;
+  margin: 10%;
+  padding: 3em;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.construction {
+  height: 3em;
+}
