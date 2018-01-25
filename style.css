@@ -184,65 +184,38 @@ footer {
   margin-bottom: -5px;
 }
 
+/*------------------------------------------*/
 
-/*-----------------login page--------------------*/
+@media screen and (min-width: 600px) {
+    .trident {
+      height: 25px;
+      margin: 20px
+    }
+    h1 {
+      font-family: 'Spectral SC', serif;
+      text-transform: capitalize;
+      color: white;
+      font-size: 3.5em;
+      margin-bottom: 0
+    }
 
-.login {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
+    h2 {
+      font-family: 'Spectral SC', serif;
+      font-size: 2.5em;
+      margin-bottom: 0
+    }
 
-.loginform {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 13%;
-  background-color: #A0D6B4;
-  height: 15em;
-  font-size: 2em;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-}
+    h3 {
+      font-family: 'Dosis', sans-serif;
+    }
 
-.logininput {
-  /*height: 3em;*/
-  width: 60%;
-  margin-left: 1em;
-  margin-right: 1em;
-  font-size: 1.5em;
-  font-family: 'Dosis', sans-serif;
-}
-
-.submitbutton {
-  padding: 5px;
-  border: 1px solid black;
-  background-color: #E8D9C5;
-  border-radius: 5px;
-  font-size: 1.5em;
-  text-decoration: none;
-  font-family: 'Dosis', sans-serif;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-
-/*--------------------signup form--------------------*/
-
-.comingsoon {
-  background-color: #A0D6B4;
-  margin: 10%;
-  padding: 3em;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  font-size: 3em;
-  text-transform: uppercase;
-}
-
-.construction {
-  height: 3em;
+    p {
+      font-family: 'Open Sans Condensed', sans-serif;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 5%;
+      font-size: 1.5em;
+      display: flex;
+      justify-content: center;
+    }
 }
