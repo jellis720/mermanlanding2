@@ -186,7 +186,7 @@ footer {
 
 /*------------------------------------------*/
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
     .trident {
       height: 25px;
       margin: 20px
