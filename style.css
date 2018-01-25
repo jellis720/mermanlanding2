@@ -129,7 +129,7 @@ header {
   justify-content: center;
 }
 
-.contactsection {
+#contactsection {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -217,5 +217,25 @@ footer {
       font-size: 1.5em;
       display: flex;
       justify-content: center;
+    }
+    .link {
+      background-color: #E8D9C5;
+      padding-right: 40px;
+      padding-left: 40px;
+      border: gray 2px solid;
+      border-radius: 10px;
+      font-size: 2em;
+      margin-bottom: -5px;
+    }
+    #contactsection {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #5F9EA0;
+      color: white;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      text-shadow: 2px 2px 2px gray;
     }
 }
